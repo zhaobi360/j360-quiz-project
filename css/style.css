@@ -17,6 +17,7 @@ margin: 0 auto -4em;
 
  h1 {
 	 text-align: center;
+	 font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
  } 
  
 .question {
@@ -28,11 +29,23 @@ margin: 0 auto -4em;
   
 } 
 
+.credit {
+	font-size:9px;
+}
+
 .answer { 
 text-align: center;
 margin: 0 auto; 
 width:250px;
 } 
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
 
 .footer {
 height: 2em;
@@ -49,6 +62,10 @@ text-align: center;
   h1 {
 	   font-size: 24px;
 }   
+  .question {
+	  width: 100%;
+      height: auto;
+}
 }  
 /* For 480px or less */  
 @media screen and (max-width: 480px){  
@@ -58,5 +75,9 @@ text-align: center;
 	h1 {
 	   font-size: 20px;
 }  
+ .question {
+	  width: 100%;
+      height: auto;
+}
 }
  
