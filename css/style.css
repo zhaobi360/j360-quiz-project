@@ -1,0 +1,62 @@
+@charset "UTF-8";
+body {
+	 background: url(../images/1.jpg);
+	 font-family: 'Trebuchet MS', 'Helvetica';
+	 background-color: #cccccc;
+	 background-repeat: y-repeat;
+	 text-align:center;
+ }
+
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+
+ h1 {
+	 text-align: center;
+ } 
+ 
+.question {
+	font-weight:bold;
+ }
+ 
+#a1, #a2, #a3, #a4,#a5, #a6, #a7, #a8, #a9, #a10, #a11, #a12, #a13, #a15, #a15, #a16, #a17, #a18, #a19, #a20, #a21, #a22
+ { 
+  
+} 
+
+.answer { 
+text-align: center;
+margin: 0 auto; 
+width:250px;
+} 
+
+.footer {
+height: 2em;
+text-align: center;
+}
+
+
+
+/* For 980px or less */  
+@media screen and (max-width: 980px){   
+  body {  
+        width: 65%;  
+    } 
+  h1 {
+	   font-size: 24px;
+}   
+}  
+/* For 480px or less */  
+@media screen and (max-width: 480px){  
+    body {  
+        display: 85%;  
+    }  
+	h1 {
+	   font-size: 20px;
+}  
+}
+ 
