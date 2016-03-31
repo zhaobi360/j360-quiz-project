@@ -71,3 +71,27 @@ var score = 0;
 		
  }
  
+ $(document).ready(function () {
+   $("#btnSubmit").click(function(){
+        $(".1").hide();
+    });
+	 $("#btnSubmit2").click(function(){
+        $(".2").hide();
+    });
+	 $("#btnSubmit3").click(function(){
+        $(".3").hide();
+    });
+	 $("#btnSubmit4").click(function(){
+        $(".4").hide();
+    });
+	 $("#btnSubmit5").click(function(){
+        $(".5").hide();
+    });
+	 $("#btnSubmit6").click(function(){
+        $(".6").hide();
+    });
+	 $("#btnSubmit7").click(function(){
+        $(".1, .2, .3, .4, .5, .6").show();
+    });
+	 });
+	 
