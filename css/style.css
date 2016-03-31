@@ -1,10 +1,15 @@
 @charset "UTF-8";
 body {
-	 background: url(../images/1.jpg);
+	 width: 100%;
+    height: 100%;
+	 background: url(../images/1.jpeg);
 	 font-family: 'Trebuchet MS', 'Helvetica';
 	 background-color: #cccccc;
-	 background-repeat: y-repeat;
-	 text-align:center;
+	 background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+	margin: auto;
+	text-align: center;
  }
 
 
@@ -29,8 +34,17 @@ margin: 0 auto -4em;
   
 } 
 
+td:hover {
+	background-color: yellow;
+}
+
+td:active {
+	background-color: red;
+}
+
 .credit {
 	font-size:9px;
+	font-family: italic;
 }
 
 .answer { 
@@ -38,6 +52,13 @@ text-align: center;
 margin: 0 auto; 
 width:250px;
 } 
+
+
+
+ .image {
+height: auto;
+  width: 100%;
+}
 
 #share-buttons img {
 width: 35px;
@@ -62,11 +83,11 @@ text-align: center;
   h1 {
 	   font-size: 24px;
 }   
-  .question {
-	  width: 100%;
-      height: auto;
+  
+  
+
 }
-}  
+
 /* For 480px or less */  
 @media screen and (max-width: 480px){  
     body {  
@@ -75,9 +96,12 @@ text-align: center;
 	h1 {
 	   font-size: 20px;
 }  
- .question {
-	  width: 100%;
-      height: auto;
+ 
+ .image {
+height: auto;
+  width: 100%;
 }
+
+
 }
  
