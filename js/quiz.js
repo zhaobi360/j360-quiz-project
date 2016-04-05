@@ -31,7 +31,6 @@ var score = 0;
 	 else {
 		 alert("Incorrect! The correct answer is A! Your score is now " + score)
 	 }
-		
  }
   
  function fSubmit4() {
@@ -71,6 +70,7 @@ var score = 0;
 		
  }
  
+  
  $(document).ready(function () {
    $("#btnSubmit").click(function(){
         $(".1").hide();
@@ -94,4 +94,4 @@ var score = 0;
         $(".1, .2, .3, .4, .5, .6").show();
     });
 	 });
-	 
+
