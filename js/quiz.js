@@ -90,8 +90,10 @@ var score = 0;
 	 $("#btnSubmit6").click(function(){
         $(".6").hide();
     });
-	 $("#btnSubmit7").click(function(){
-        $(".1, .2, .3, .4, .5, .6").show();
-    });
 	 });
+	 
+ function myFunction() {
+  location.reload();
+}
 
+  
