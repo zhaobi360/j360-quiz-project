@@ -88,12 +88,13 @@ var score = 0;
         $(".5").hide();
     });
 	 $("#btnSubmit6").click(function(){
-        $(".6").hide();
+        $(".1,.2,.3,.4,.5,.6").hide();
     });
 	 });
 	 
  function myFunction() {
   location.reload();
 }
+
 
   
