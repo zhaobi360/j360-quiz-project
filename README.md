@@ -12,9 +12,9 @@ True/false
 Matching answers
 Short answers  
 
-4.	Click the Submit bottom when finishing each question to get score and instant feedback. if the final submit bottom is clicked, all the questions will be invisible.
+4.	Click the Submit bottom when finishing each question to get score and instant feedback.
 
-5.	Each question will be hidden after clicking the Submit button. (cannot submit a question twice or more.)
+5.	Each submit bottom will be 'grey' after clicking the button. (cannot submit a question twice or more.)
 
 6.	Results will be shown when all the questions are finished, scores and feedbacks are shown.
 
