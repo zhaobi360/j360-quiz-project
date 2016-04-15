@@ -78,8 +78,19 @@ var score = 0;
   location.reload();
 }
 
+
 $(document).ready(function () {
 $('#btnSubmit6').click(function(){  
    $('.answer2').show('slow');
 });
 });
+
+
+ $(function () {
+        $("p").click(function (e) {
+            if (!$('input[name="radio"]').is(':checked')) {
+                alert("You did not answer yet!")
+                e.preventDefault();
+            }
+  });
+  });
