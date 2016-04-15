@@ -14,7 +14,7 @@ Short answers
 
 4.	Click the Submit bottom when finishing each question to get score and instant feedback. if the final submit bottom is clicked, all the questions will be invisible.
 
-5.	Each question will be hidden after clicking the Submit button. (cannot answer a question twice or more.)
+5.	Each question will be hidden after clicking the Submit button. (cannot submit a question twice or more.)
 
 6.	Results will be shown when all the questions are finished, scores and feedbacks are shown.
 
@@ -30,4 +30,4 @@ Short answers
 
 •	This quiz is responsive on all kinds of browsers and devices.
 
-• Why I use so many "submit" button in the quiz? Because this is a better choice I think. Based on my experience in BuzzFeed Quizzes, every time I can only click the answer once. In this case, I may click an answer mistakenly, I may want to reselect an answer before I make sure it is right. So the "submit" is a human-centered design, it makes the quiz-taker think twice. Just like we take any class quiz on Canvas, we can change the answers many times before we submit our results. Clicking an answer and cannot change is not a good design. 
+• Why I use so many "submit" button in the quiz? Because this is a better choice I think. Based on my experience in BuzzFeed Quizzes, every time I can only click the answer once. In this case, I may click an answer mistakenly, I may want to reselect an answer before I make sure it is right. So the "submit" is a human-centered design, it makes the quiz-taker think twice. Just like we take any class quiz on Canvas, we can change the answers many times before we submit our results. Clicking an answer and cannot change is not a good design.
